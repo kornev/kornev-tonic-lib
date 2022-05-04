@@ -1,7 +1,7 @@
 package tonic.java;
 
-public interface IPartSchema {
-    Integer getIntegerIdx();
+public interface IPartValsSpec {
+    Long getIntegerIdx();
     String getPkeyName();
     String getPkeyType();
     String getPartKeyVal();

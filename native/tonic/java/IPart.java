@@ -3,12 +3,12 @@ package tonic.java;
 import java.util.List;
 
 public interface IPart {
-    Integer getTblId();
-    Integer getSdId();
-    Integer getPartId();
-    Integer getCreateTime();
-    Integer getCdId();
+    Long getTblId();
+    Long getSdId();
+    Long getPartId();
+    Long getCreateTime();
+    Long getCdId();
     String getPartName();
     String getLocation();
-    List<IPartSchema> getPartSchema();
+    List<IPartValsSpec> getPartValsSpec();
 }
